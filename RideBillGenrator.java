@@ -20,7 +20,7 @@ public class RideBillGenrator {
                 }else{
                     System.out.println("Invalid input");
                 }
-            }else if(age == 12 && age < 18){
+            }else if(age == 12 || age < 18){
                 System.out.println("Do you want to click photos? Yes/no");
                 String age18 = sc.next();
                 if(age18.equalsIgnoreCase("yes")){
